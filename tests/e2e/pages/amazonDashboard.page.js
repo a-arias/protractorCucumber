@@ -6,7 +6,7 @@ class AmazonPage {
 
     //Opens up the amazon page
     async open() {
-        await browser.get('https://www.amazon.com');
+        await browser.get('https://www.amazon.com',200000);
     }
 
     //search for an item on amazon.com
@@ -15,7 +15,7 @@ class AmazonPage {
     }
 
     //clicks search button
-    async fillUserFirstName(){
+    async clickSearchInput(){
         await this.searchInputButton.click();
     }
 }

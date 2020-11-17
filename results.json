@@ -1,0 +1,236 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Contact feature",
+    "line": 2,
+    "id": "contact-feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 1
+      },
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\e2e\\features\\tests.feature",
+    "elements": [
+      {
+        "id": "contact-feature;the-user-should-be-be-able-to-use-contact-form",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "The user should be be able to use contact form",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user is on amazon page",
+            "match": {
+              "location": "tests\\e2e\\step_definitions\\steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "The user search for \"Cat bell\" on the search input",
+            "match": {
+              "location": "tests\\e2e\\step_definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5359000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The user should be able to see the results number for the search of \"1-48 of over 2,000 results for\"",
+            "match": {
+              "location": "tests\\e2e\\step_definitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 278000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "contact-feature;i-should-be-able-to-perform-different-searches-on-amazon",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "I should be able to perform different searches on amazon",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@other",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "The user is on amazon page",
+            "match": {
+              "location": "tests\\e2e\\step_definitions\\steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1540000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "The user search for \"Cat bell\" on the search input",
+            "match": {
+              "location": "tests\\e2e\\step_definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1527000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "The user should be able to see the results number for the search of \"1-48 of over 2,000 results for\"",
+            "match": {
+              "location": "tests\\e2e\\step_definitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "contact-feature;i-should-be-able-to-perform-different-searches-on-amazon",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "I should be able to perform different searches on amazon",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@other",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "The user is on amazon page",
+            "match": {
+              "location": "tests\\e2e\\step_definitions\\steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1664000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "The user search for \"Dog bell\" on the search input",
+            "match": {
+              "location": "tests\\e2e\\step_definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "The user should be able to see the results number for the search of \"1-48 of over 1,000 results for\"",
+            "match": {
+              "location": "tests\\e2e\\step_definitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
