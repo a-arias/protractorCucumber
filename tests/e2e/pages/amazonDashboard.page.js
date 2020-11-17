@@ -1,7 +1,7 @@
 class AmazonPage {
     constructor() {
         this.searchInput        = element(by.id('twotabsearchtextbox'));
-        this.searchInputButton  = element(by.css('[type="submit"]'));
+        this.searchInputButton  = element.all(by.css('[type="submit"]')).first();
     }
 
     //Opens up the amazon page
