@@ -1,7 +1,7 @@
 @regression @smoke
-Feature: Contact feature
+Feature: Amazon search items feature
 
-  Scenario: The user should be be able to use contact form
+  Scenario: The user should be be to perform a search on amazon search feature
     Given The user is on amazon page
     When The user search for "Cat bell" on the search input
     Then The user should be able to see the results number for the search of "1-48 of over 2,000 results for"
