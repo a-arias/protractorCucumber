@@ -1,9 +1,9 @@
 [
   {
     "keyword": "Feature",
-    "name": "Contact feature",
+    "name": "Amazon search items feature",
     "line": 2,
-    "id": "contact-feature",
+    "id": "amazon-search-items-feature",
     "tags": [
       {
         "name": "@regression",
@@ -17,10 +17,10 @@
     "uri": "tests\\e2e\\features\\tests.feature",
     "elements": [
       {
-        "id": "contact-feature;the-user-should-be-be-able-to-use-contact-form",
+        "id": "amazon-search-items-feature;the-user-should-be-be-to-perform-a-search-on-amazon-search-feature",
         "keyword": "Scenario",
         "line": 4,
-        "name": "The user should be be able to use contact form",
+        "name": "The user should be be to perform a search on amazon search feature",
         "tags": [
           {
             "name": "@regression",
@@ -43,7 +43,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6214000000
+              "duration": 8468000000
             }
           },
           {
@@ -56,7 +56,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5359000000
+              "duration": 4289000000
             }
           },
           {
@@ -69,7 +69,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 278000000
+              "duration": 49000000
             }
           },
           {
@@ -80,13 +80,13 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           }
         ]
       },
       {
-        "id": "contact-feature;i-should-be-able-to-perform-different-searches-on-amazon",
+        "id": "amazon-search-items-feature;i-should-be-able-to-perform-different-searches-on-amazon",
         "keyword": "Scenario",
         "line": 16,
         "name": "I should be able to perform different searches on amazon",
@@ -116,7 +116,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1540000000
+              "duration": 1248000000
             }
           },
           {
@@ -129,7 +129,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1527000000
+              "duration": 2383000000
             }
           },
           {
@@ -142,7 +142,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 297000000
+              "duration": 386000000
             }
           },
           {
@@ -153,13 +153,13 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           }
         ]
       },
       {
-        "id": "contact-feature;i-should-be-able-to-perform-different-searches-on-amazon",
+        "id": "amazon-search-items-feature;i-should-be-able-to-perform-different-searches-on-amazon",
         "keyword": "Scenario",
         "line": 17,
         "name": "I should be able to perform different searches on amazon",
@@ -189,7 +189,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1664000000
+              "duration": 1314000000
             }
           },
           {
@@ -202,7 +202,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2340000000
+              "duration": 1619000000
             }
           },
           {
@@ -215,7 +215,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 398000000
+              "duration": 410000000
             }
           },
           {
